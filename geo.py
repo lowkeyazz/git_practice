@@ -8,9 +8,14 @@ class square():
         return (self.length*4)
     pass
     
- #Exercice2
- class rectangle(square):
+#Exercice2
+class rectangle(square):
         def __init__(self, length, width):
                 self.length = length
                 self.width = width
+        pass
+class position():
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
         pass
